@@ -1,0 +1,33 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Autism Prediction Questionnaire</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Autism Prediction Questionnaire</h1>
+    <img src="{{ url_for('static', filename='world-autism.png') }}" alt="Autism Awareness" class="header-image">
+    <form method="post" action="{{ url_for('submit') }}">
+      <!-- Loop over the questions passed from Flask -->
+      {% for question in questions %}
+        <div class="form-group">
+          <label for="q{{ loop.index }}">{{ question }}</label>
+          <select name="q{{ loop.index }}" id="q{{ loop.index }}">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </div>
+      {% endfor %}
+      <!-- Final question for DNA input -->
+      <div class="form-group">
+        <label for="dna">Please enter your DNA sequence:</label>
+        <input type="text" id="dna" name="dna" required>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
