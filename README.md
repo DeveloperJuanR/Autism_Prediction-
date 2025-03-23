@@ -81,10 +81,7 @@
 - Academic Collaborations: $50,000
 - Pilot Testing & Validation: $50,000
 - Data Collection & AI Training: $25,000
------------------------------------------------
-Total Estimated Budget: $450,000
-![image](https://github.com/user-attachments/assets/f2025a07-54bc-4605-a137-4cbf61b07865)
-
+- **Total Estimated Budget: $450,000**
 
 
 # HIPPA and Patient/Person Protection Privacy Policy: 
