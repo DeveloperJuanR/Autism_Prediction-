@@ -11,6 +11,27 @@
     <h1>Autism Prediction Questionnaire</h1>
     <img src="{{ url_for('static', filename='world-autism.png') }}" alt="Autism Awareness" class="header-image">
     <form method="post" action="{{ url_for('dna.submit_sequence') }}">
+          <!-- User information fields -->
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+      </div>
+      <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age">
+      </div>
+      <div class="form-group">
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+      </div>
       <!-- Loop over the questions passed from Flask -->
       {% for question in questions %}
         <div class="form-group">
@@ -23,8 +44,8 @@
       {% endfor %}
       <!-- Final question for DNA input -->
       <div class="form-group">
-        <label for="dna">Please enter your DNA sequence:</label>
-        <input type="text" id="dna" name="dna" required>
+        <label for="dna">Please enter your DNA sequence (optional):</label>
+        <input type="text" id="dna" name="dna">
       </div>
       <button type="submit">Submit</button>
     </form>

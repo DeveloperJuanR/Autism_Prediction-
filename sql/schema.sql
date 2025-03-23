@@ -13,7 +13,7 @@ CREATE TABLE `User` (
 CREATE TABLE DNA_Sequence (
     dna_id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT NOT NULL,
-    sequence TEXT NOT NULL,
+    sequence TEXT,
     responses JSON,
     evaluation VARCHAR(50),
     time_submitted TIMESTAMP,
