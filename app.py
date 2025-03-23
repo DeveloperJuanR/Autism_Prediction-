@@ -24,19 +24,27 @@ def index():
 @app.route('/submit', methods=['POST'])
 def submit():
     responses = []
-    # Process each question and store responses as an ordered list of dicts
+    yes_count = 0
+
+    # Process each question and count "yes" answers
     for i, question in enumerate(questions, start=1):
         answer = request.form.get(f'q{i}')
         responses.append({'question': question, 'answer': answer})
-    
-    # Append the DNA response separately
-    dna_value = request.form.get('dna')
+        if answer and answer.lower() == 'yes':
+            yes_count += 1
+
+    # Append the optional DNA response
+    dna_value = request.form.get('dna')  # Will be None or empty string if not provided
     responses.append({'dna': dna_value})
-    
+
+    # Determine the message based on yes_count
+    if yes_count >= 7:
+        message = "Based on your responses, there is a possibility that you have autism."
+    else:
+        message = "Based on your responses, there isn't enough evidence to suggest autism."
+
     # Convert responses to JSON with indentation for readability
     json_payload = json.dumps(responses, indent=4)
-    
-    message = "Thank you for your responses! Your data has been received."
     return render_template('response.html', message=message, json_payload=json_payload)
 
 if __name__ == '__main__':

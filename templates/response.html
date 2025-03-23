@@ -6,15 +6,43 @@
     <title>Submission Received</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
     <style>
-        body {
-            color: white;
+        /* Container for the response message */
+        .response-container {
+            background-color: rgba(255, 255, 255, 0.9); /* White with slight transparency */
+            border-radius: 12px;
+            padding: 30px;
+            max-width: 600px;
+            margin: 100px auto; /* Center horizontally and add top margin */
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            font-family: 'Inter', sans-serif;  /* Use Inter font */
+        }
+        /* Style for the title */
+        .response-container h1 {
+            color: #444444; /* Dark grey */
+            font-weight: 600; /* Slightly heavier font weight */
+            margin-bottom: 20px;
+        }
+        /* Style for the response text */
+        .response-container p {
+            font-weight: 600; /* Increased font weight */
+            color: #444444; /* Dark grey */
+            margin-top: 20px;
+        }
+        /* Style for the embedded image */
+        .response-image {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
         }
     </style>
 </head>
 <body>
-    <h1>Submission Received</h1>
-    <p>{{ message }}</p>
-    <h2>Your JSON Payload:</h2>
-    <pre>{{ json_payload }}</pre>
+    <div class="response-container">
+        <h1>Submission Received</h1>
+        <img src="{{ url_for('static', filename='world-autism.png') }}" alt="Autism Awareness" class="response-image">
+        <p>{{ message }}</p>
+    </div>
 </body>
 </html>
