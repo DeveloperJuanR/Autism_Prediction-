@@ -25,7 +25,7 @@
 
 # Machine Learning Modeling for Autism & Amino Acids Current Research: 
 
-**Autism Embedded with Deep Learning** --------------------------
+**Autism Embedded with Deep Learning** 
 - IEEE Research Paper (Autism diagnosis with a CNN model based on genetic mutations): https://ieeexplore.ieee.org/document/10638956, Published on IEEE on 23 August 2024
 - IEEE Research Paper (Comprehensive Analysis of Autism Spectrum Disorder Detection Using Deep Learning) :https://ieeexplore.ieee.org/abstract/document/10763358, Published on IEEE on 3 December 2024
 
