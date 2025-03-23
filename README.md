@@ -2,7 +2,7 @@
 # Introduction
 ![image](https://github.com/user-attachments/assets/b9d67fbf-0c53-4b31-b854-64d5f4f56439)
 
-Autism is well-known neurodevelopment disorder commonly found in adults and children which is characterized by inflexible behaviors, interests and can affect one's social life. Our project aimed to simulated a machine learning algorithm to analyze a specific DNA sequence from Autism Spectrum Disorder and to allow the user to answer a questionnaire to determine if they likely to have autism using questions and their DNA sequence. While there are various DNA sequences involved with Autism. Our project focused on using Gene ID: NM_030627.4. The gene NM_030627.4 is known for coding the protein which is commonly known as CPEB4 and medically referred to as Idiopathic Autism (which is 80% of autistic patients), this protein leads to less neuronal activity, social awkwardness, sensitive to loud noises, and various symptoms that are well-recognized by medical professionals. While many people are aware of Autism's effects on disability due to famous shows such as the 'Good Doctor', what many people don't realize is that autism is on the rise as supported by the (CDC) Center of Disease Control Research. A study that was published in the JAMA Network Open found that children and adults diagnosed with autism spectrum disorder (ASD) increased by 175% over a decade and there could be various reasons such environmental factors like pollution, lack of healthcare, rise of media, The problem of Autism is that its hard to identify and requires time and observational techniques. What's worse is that it is affecting many younger generations like children whose learning abilities shouldn't be hindered by Autism's effects. 
+**Autism** is well-known neurodevelopment disorder commonly found in adults and children which is characterized by inflexible behaviors, interests and can affect one's social life. Our project aimed to simulated a machine learning algorithm to analyze a specific DNA sequence from Autism Spectrum Disorder and to allow the user to answer a questionnaire to determine if they likely to have autism using questions and their DNA sequence. While there are various DNA sequences involved with Autism. Our project focused on using Gene ID: NM_030627.4. The gene NM_030627.4 is known for coding the protein which is commonly known as CPEB4 and medically referred to as Idiopathic Autism (which is 80% of autistic patients), this protein leads to less neuronal activity, social awkwardness, sensitive to loud noises, and various symptoms that are well-recognized by medical professionals. While many people are aware of Autism's effects on disability due to famous shows such as the 'Good Doctor', what many people don't realize is that autism is on the rise as supported by the (CDC) Center of Disease Control Research. A study that was published in the JAMA Network Open found that children and adults diagnosed with autism spectrum disorder (ASD) increased by 175% over a decade and there could be various reasons such environmental factors like pollution, lack of healthcare, rise of media, The problem of Autism is that its hard to identify and requires time and observational techniques. What's worse is that it is affecting many younger generations like children whose learning abilities shouldn't be hindered by Autism's effects. 
 
 
 
@@ -15,7 +15,6 @@ Largest Proteins were stored and saved for further analysis
 High Lucine and Serine amino acids Detected, Low Glutamine (which is a key insight since its commonly low in autism) 
 Moderate Stable Sequence in terms of GC % 
 Low GC content (possible link to neurodegenerative abilities with neurons in the brain) 
-![image](https://github.com/user-attachments/assets/c30b9872-ddce-445c-a5d1-cd93ad5e0f09)
 
 
 
@@ -37,7 +36,6 @@ Low GC content (possible link to neurodegenerative abilities with neurons in the
 
 
 # Machine Learning modeling & analysis of Autism Marketing Analysis
-![image](https://github.com/user-attachments/assets/3b727f2c-2eb4-4187-9db8-94910ac1c23d)
 - Problem Statement: How can anlayze CPEB4 Protein structure of Autism and compare it from DNA sequences provided by the user using machine learning modeling 
 - Target Market: Autistic or Potentially autistic Patients (questionnaire), Biological Scientist (Bioinformatic Analysis) 
 - Competitor Analyst:
@@ -65,7 +63,7 @@ Low GC content (possible link to neurodegenerative abilities with neurons in the
 
 
 # Finanical Budget/Funding for Project: 
-- Estimated Cost (Year 1)
+- Estimated Cost (Year 1):
 Product Development: $150,000
 Software Engineering (AI & ML Development): $80,000
 Cloud Infrastructure & Data Storage: $30,000
@@ -85,6 +83,7 @@ Pilot Testing & Validation: $50,000
 Data Collection & AI Training: $25,000
 -----------------------------------------------
 Total Estimated Budget: $450,000
+![image](https://github.com/user-attachments/assets/f2025a07-54bc-4605-a137-4cbf61b07865)
 
 
 
