@@ -20,7 +20,7 @@
 
 # PubMed Article Research :
 - Article on Increased Glutamate & Homocytesine and Decreased Glutamine Levels in Autism: Strategies for future study of amino acids. 
-- ![image](https://github.com/user-attachments/assets/eef052c5-1d0e-4bfe-b9e3-1ad6629c55a5)
+![image](https://github.com/user-attachments/assets/eef052c5-1d0e-4bfe-b9e3-1ad6629c55a5)
 
 
 
@@ -29,9 +29,9 @@
 - 10 Questions about possible signs 
 - Allows user to input DNA sequences from DNA tests and compare it with the CPEB4 Protein later on.
   
-- ![image](https://github.com/user-attachments/assets/6b88f524-37d4-4444-9e52-ed61e8ed6c8d)
-- ![image](https://github.com/user-attachments/assets/5a37598b-0265-44d2-aba7-c0d976cea26b)
-- ![image](https://github.com/user-attachments/assets/81ed55a5-b191-42ef-a1f9-33274d4f3a1b)
+![image](https://github.com/user-attachments/assets/6b88f524-37d4-4444-9e52-ed61e8ed6c8d)
+![image](https://github.com/user-attachments/assets/5a37598b-0265-44d2-aba7-c0d976cea26b)
+![image](https://github.com/user-attachments/assets/81ed55a5-b191-42ef-a1f9-33274d4f3a1b)
 
 
 
