@@ -14,7 +14,11 @@
 <body>
     <h1>Submission Received</h1>
     <p>{{ message }}</p>
-    <h2>Your JSON Payload:</h2>
-    <pre>{{ json_payload }}</pre>
+    <h2>Your Responses:</h2>
+    <ul>
+        {% for question, answer in responses.items() %}
+            <li><strong>{{ question }}</strong>: {{ answer }}</li>
+        {% endfor %}
+    </ul>
 </body>
 </html>

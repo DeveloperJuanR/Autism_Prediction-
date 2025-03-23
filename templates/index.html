@@ -10,7 +10,7 @@
   <div class="container">
     <h1>Autism Prediction Questionnaire</h1>
     <img src="{{ url_for('static', filename='world-autism.png') }}" alt="Autism Awareness" class="header-image">
-    <form method="post" action="{{ url_for('submit') }}">
+    <form method="post" action="{{ url_for('dna.submit_sequence') }}">
       <!-- Loop over the questions passed from Flask -->
       {% for question in questions %}
         <div class="form-group">

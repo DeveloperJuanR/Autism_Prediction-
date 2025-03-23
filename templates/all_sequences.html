@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Submitted DNA Sequences</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Submitted DNA Sequences</h1>
+
+    {% if sequences %}
+      <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Sequence</th>
+            <th>Evaluation</th>
+            <th>Responses</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for seq in sequences %}
+            <tr>
+              <td>{{ seq.user_id }}</td>
+              <td>{{ seq.sequence }}</td>
+              <td>{{ seq.evaluation }}</td>
+              <td>
+                <ul>
+                  {% for q_key, answer in seq.responses.items() %}
+                    <li>{{ q_key }}: {{ answer }}</li>
+                  {% endfor %}
+                </ul>
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    {% else %}
+      <p>No sequences have been submitted yet.</p>
+    {% endif %}
+  </div>
+</body>
+</html>

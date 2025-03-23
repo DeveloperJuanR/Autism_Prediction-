@@ -7,7 +7,7 @@ CREATE TABLE `User` (
     name VARCHAR(64),
     age INT,
     gender VARCHAR(10),
-    email VARCHAR(120) UNIQUE,
+    email VARCHAR(120) UNIQUE
 );
 
 CREATE TABLE DNA_Sequence (

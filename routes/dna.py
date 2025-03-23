@@ -1,4 +1,4 @@
-from flask import Blueprint, request, jsonify, render_template
+from flask import Blueprint, request, render_template
 from models.dna_sequence import DNASequence
 from models.user import User
 from data.questions import questions
@@ -39,17 +39,22 @@ def submit_sequence():
     db.session.commit()
 
     message = "Thank you for your responses! Your data has been saved."
-    return render_template('response.html', message=message, json_payload=responses)
+    return render_template('response.html', message=message, responses=responses)
+
+# @bp.route('/all', methods=['GET'])
+# def get_all_sequences():
+#     sequences = DNASequence.query.all()
+#     return jsonify([
+#         {
+#             "id": seq.id,
+#             "sample_name": seq.sample_name,
+#             "sequence": seq.sequence,
+#             "diagnosis": seq.diagnosis
+#         } for seq in sequences
+#     ])
 
 
 @bp.route('/all', methods=['GET'])
 def get_all_sequences():
     sequences = DNASequence.query.all()
-    return jsonify([
-        {
-            "id": seq.id,
-            "sample_name": seq.sample_name,
-            "sequence": seq.sequence,
-            "diagnosis": seq.diagnosis
-        } for seq in sequences
-    ])
+    return render_template('all_sequences.html', sequences=sequences)
