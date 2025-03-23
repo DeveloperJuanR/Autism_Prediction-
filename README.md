@@ -4,6 +4,7 @@
 
 - **Autism** is well-known neurodevelopment disorder commonly found in adults and children which is characterized by inflexible behaviors, interests and can affect one's social life. Our project aimed to simulated a machine learning algorithm to analyze a specific DNA sequence from Autism Spectrum Disorder and to allow the user to answer a questionnaire to determine if they likely to have autism using questions and their DNA sequence. While there are various DNA sequences involved with Autism. Our project focused on using Gene ID: **NM_030627.4.** The gene NM_030627.4 is known for coding the protein which is commonly known as **CPEB4 ** and medically referred to as Idiopathic Autism (which is 80% of autistic patients), this protein leads to less neuronal activity, social awkwardness, sensitive to loud noises, and various symptoms that are well-recognized by medical professionals. While many people are aware of Autism's effects on disability due to famous shows such as the 'Good Doctor', what many people don't realize is that autism is on the rise as supported by the (CDC) Center of Disease Control Research. A study that was published in the JAMA Network Open found that children and adults diagnosed with autism spectrum disorder (ASD) increased by 175% over a decade and there could be various reasons such environmental factors like pollution, lack of healthcare, rise of media, The problem of Autism is that its hard to identify and requires time and observational techniques. What's worse is that it is affecting many younger generations like children whose learning abilities shouldn't be hindered by Autism's effects. 
 
+![image](https://github.com/user-attachments/assets/91385d15-cbd9-4f98-9a94-f0606c6e5c18)
 
 
 # Key Autism Data Observations: 
@@ -88,3 +89,11 @@
 - Our software prouct entails to follow User and Patient Privacy in compliance of HIPAA and Privacy Rules, as demostrated below, we do want the user to know they are entitled to their own rights.
 - https://www.hhs.gov/hipaa/for-individuals/guidance-materials-for-consumers/index.html
 - Our Product ensures through enterprise security as authentication, Edge Routers, firewalls, and IPS that our system will be secured and protected by a secuirty and compliances team working together to make sure our program runs smoothly and safely. 
+
+
+# Volunteer/Website Opportunties if interested in Autism Research: 
+- Your skills and donations along with software development and machine learning can help communities find cures, treatments, and potentially solutions to dealing with diseases like Autism. 
+- Autism Speaks: https://www.autismspeaks.org/?form=donate&utm_medium=paidsearch&utm_source=bing&utm_campaign=IS-branded-conv&utm_content=IS-evergreen&msclkid=3bcf11fea5921da2859f761ecfcea87d
+- American Parkinson Disease Association: https://www.bing.com/search?q=Autism%20research%20donationa%20nd%20support&qs=n&form=QBRE&sp=-1&ghc=1&lq=0&pq=autism%20research%20donationa%20nd%20suppor&sc=12-35&sk=&cvid=C89F6A9ACD62418790AEB40676BF436F&ghsh=0&ghacc=0&ghpl=
+- Swiss Stem Cells Treatment Clinic: https://swissmedica.startstemcells.com/autism1/usa?msclkid=434ab421a9b81fe8fd1bd3c1c3e4a24b&utm_source=bing&utm_medium=cpc&utm_campaign=Search_Autism_USA_EN&utm_term=autism%20support%20services&utm_content=EN%20autism
+- Autism Research Institute: https://autism.org/donate-giving/
