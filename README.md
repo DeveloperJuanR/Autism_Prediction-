@@ -23,7 +23,17 @@
 - Article on Increased Glutamate & Homocytesine and Decreased Glutamine Levels in Autism: Strategies for future study of amino acids. 
 ![image](https://github.com/user-attachments/assets/eef052c5-1d0e-4bfe-b9e3-1ad6629c55a5)
 
+# Machine Learning Modeling for Autism & Amino Acids Current Research: 
 
+**Autism Embedded with Deep Learning** --------------------------
+- IEEE Research Paper (Autism diagnosis with a CNN model based on genetic mutations): https://ieeexplore.ieee.org/document/10638956, Published on IEEE on 23 August 2024
+- IEEE Research Paper (Comprehensive Analysis of Autism Spectrum Disorder Detection Using Deep Learning) :https://ieeexplore.ieee.org/abstract/document/10763358, Published on IEEE on 3 December 2024
+ **Medical Autism Research** -----------------------------------
+- National Library of Medicine PubMed Central (Genetic contributions to autism spectrum disorder): https://pmc.ncbi.nlm.nih.gov/articles/PMC8477228/
+- National Library of Medicine PubMed Central (Neuroactive Amino Acid Profile in Autism Spectrum Disorder: Results from a Clinical Sample): https://pmc.ncbi.nlm.nih.gov/articles/PMC9955282/
+- National Library of Medicine PubMed Central (Amino Acid Patterns in Children with Autistic Spectrum Disorder: A Preliminary Biochemical Evaluation): https://pmc.ncbi.nlm.nih.gov/articles/PMC11767892/
+- The Environmental and Genetic Causes of Autism Book by James Lyons-Weiler PhD, Richard E. Frye: https://www.audible.com/pd/The-Environmental-and-Genetic-Causes-of-Autism-Audiobook/B072KT5GT9?source_code=MSNPP30DTRIAL55003142490W1&gclid=2a5250ca70e51a7cabfc372a1f0c8697&gclsrc=3p.ds&msclkid=2a5250ca70e51a7cabfc372a1f0c8697, Provided by Audible in Amazon 
+- Arizona Autism United Article (How the Autism Diagnosis Has Evolved Over Time): https://azaunited.org/blog/how-the-autism-diagnosis-has-evolved-over-time?msclkid=208827c8134714efb89740287cae9839&utm_source=bing&utm_medium=cpc&utm_campaign=AZA%20United-%20Blog&utm_term=autism%20history&utm_content=History%20Of%20Autism
 
 # Software Sample and Implementation: 
 - Found in our app.py
