@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="schema.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+    <script-file value="$PROJECT_DIR$/sql/schema.sql" />
+    <script-mode>FILE</script-mode>
+    <data-source id="c621af45-cbea-4d78-8101-5809e45ab12c" namespace="schema/&quot;autism_app&quot;" />
+    <method v="2" />
+  </configuration>
+</component>

@@ -17,15 +17,23 @@ def submit_sequence():
     # Get the DNA input
     dna_value = request.form.get('dna')
 
-    # Temporary default user (until form collects real data)
-    user_email = "anonymous@example.com"
-    user_name = "Anonymous"
+    # Get user information from the form
+    name = request.form.get('name')
+    age_str = request.form.get('age', '').strip()
+    try:
+        age = int(age_str)
+        if age < 0: raise ValueError("Age cannot be negative")
+    except ValueError: age = 0
+    gender = request.form.get('gender')
+    email = request.form.get('email')
 
-    user = User.query.filter_by(email=user_email).first()
+    # Try to find an existing user with the provided email
+    user = User.query.filter_by(email=email).first()
     if not user:
-        user = User(name=user_name, email=user_email)
+        # Create a new user if none exists.
+        user = User( name=name, age=age, gender=gender, email=email )
         db.session.add(user)
-        db.session.flush()
+        db.session.flush()  # Flush to assign an ID to the new user
 
     new_seq = DNASequence(
         user_id=user.user_id,
