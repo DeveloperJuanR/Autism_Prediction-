@@ -28,7 +28,8 @@
 **Autism Embedded with Deep Learning** --------------------------
 - IEEE Research Paper (Autism diagnosis with a CNN model based on genetic mutations): https://ieeexplore.ieee.org/document/10638956, Published on IEEE on 23 August 2024
 - IEEE Research Paper (Comprehensive Analysis of Autism Spectrum Disorder Detection Using Deep Learning) :https://ieeexplore.ieee.org/abstract/document/10763358, Published on IEEE on 3 December 2024
- **Medical Autism Research** -----------------------------------
+
+**Medical Autism Research** 
 - National Library of Medicine PubMed Central (Genetic contributions to autism spectrum disorder): https://pmc.ncbi.nlm.nih.gov/articles/PMC8477228/
 - National Library of Medicine PubMed Central (Neuroactive Amino Acid Profile in Autism Spectrum Disorder: Results from a Clinical Sample): https://pmc.ncbi.nlm.nih.gov/articles/PMC9955282/
 - National Library of Medicine PubMed Central (Amino Acid Patterns in Children with Autistic Spectrum Disorder: A Preliminary Biochemical Evaluation): https://pmc.ncbi.nlm.nih.gov/articles/PMC11767892/
