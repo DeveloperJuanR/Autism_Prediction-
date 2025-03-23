@@ -1,6 +1,7 @@
 # Autism_Prediction Data
 # Introduction
 ![image](https://github.com/user-attachments/assets/b9d67fbf-0c53-4b31-b854-64d5f4f56439)
+
 Autism is well-known neurodevelopment disorder commonly found in adults and children which is characterized by inflexible behaviors, interests and can affect one's social life. Our project aimed to simulated a machine learning algorithm to analyze a specific DNA sequence from Autism Spectrum Disorder and to allow the user to answer a questionnaire to determine if they likely to have autism using questions and their DNA sequence. While there are various DNA sequences involved with Autism. Our project focused on using Gene ID: NM_030627.4. The gene NM_030627.4 is known for coding the protein which is commonly known as CPEB4 and medically referred to as Idiopathic Autism (which is 80% of autistic patients), this protein leads to less neuronal activity, social awkwardness, sensitive to loud noises, and various symptoms that are well-recognized by medical professionals. While many people are aware of Autism's effects on disability due to famous shows such as the 'Good Doctor', what many people don't realize is that autism is on the rise as supported by the (CDC) Center of Disease Control Research. A study that was published in the JAMA Network Open found that children and adults diagnosed with autism spectrum disorder (ASD) increased by 175% over a decade and there could be various reasons such environmental factors like pollution, lack of healthcare, rise of media, The problem of Autism is that its hard to identify and requires time and observational techniques. What's worse is that it is affecting many younger generations like children whose learning abilities shouldn't be hindered by Autism's effects. 
 
 
@@ -8,6 +9,7 @@ Autism is well-known neurodevelopment disorder commonly found in adults and chil
 # Key Autism Data Observations: 
 ![image](https://github.com/user-attachments/assets/3cb4b436-c7e9-47ce-bb9c-7ad1c7416cce)
 ![image](https://github.com/user-attachments/assets/24ce8d27-0474-41ba-a818-49100406a856)
+
 Total of 111 Proteins Detected 
 Largest Proteins were stored and saved for further analysis 
 High Lucine and Serine amino acids Detected, Low Glutamine (which is a key insight since its commonly low in autism) 
@@ -26,10 +28,12 @@ Low GC content (possible link to neurodegenerative abilities with neurons in the
 # Software Sample and Implementation: 
 - Found in our app.py
 - 10 Questions about possible signs 
-- Allows user to input DNA sequences from DNA tests and compare it with the CPEB4 Protein later on. 
+- Allows user to input DNA sequences from DNA tests and compare it with the CPEB4 Protein later on.
+  
 - ![image](https://github.com/user-attachments/assets/6b88f524-37d4-4444-9e52-ed61e8ed6c8d)
--![image](https://github.com/user-attachments/assets/5a37598b-0265-44d2-aba7-c0d976cea26b)
-- ![image](https://github.com/user-attachments/assets/0cc702ab-96ca-4593-aefe-d176292df933)
+- ![image](https://github.com/user-attachments/assets/5a37598b-0265-44d2-aba7-c0d976cea26b)
+- ![image](https://github.com/user-attachments/assets/81ed55a5-b191-42ef-a1f9-33274d4f3a1b)
+
 
 
 # Machine Learning modeling & analysis of Autism Marketing Analysis
