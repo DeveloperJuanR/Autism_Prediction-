@@ -97,7 +97,7 @@
 
 
 # HIPPA and Patient/Person Protection Privacy Policy: 
-- Our software prouct entails to follow User and Patient Privacy in compliance of HIPAA and Privacy Rules, as demostrated below, we do want the user to know they are entitled to their own rights.
+- Our software product entails to follow User and Patient Privacy in compliance of HIPAA and Privacy Rules, as demostrated below, we do want the user to know they are entitled to their own rights.
 - https://www.hhs.gov/hipaa/for-individuals/guidance-materials-for-consumers/index.html
 - Our Product ensures through enterprise security as authentication, Edge Routers, firewalls, and IPS that our system will be secured and protected by a secuirty and compliances team working together to make sure our program runs smoothly and safely. 
 
